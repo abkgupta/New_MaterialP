@@ -20,6 +20,10 @@ import { MatFormFieldModule} from '@angular/material/form-field';
 import {MatIconModule} from '@angular/material/icon';
 import { MatslctComponent } from './matslct/matslct.component';
 import {MatSelectModule} from '@angular/material/select';
+import { AutocomplComponent } from './autocompl/autocompl.component';
+import {MatAutocompleteModule} from '@angular/material/autocomplete';
+import { ChckboxComponent } from './chckbox/chckbox.component';
+import {MatCheckboxModule} from '@angular/material/checkbox';
 
 @NgModule({
   declarations: [
@@ -28,7 +32,9 @@ import {MatSelectModule} from '@angular/material/select';
     MgridComponent,
     TabComponent,
     MatsprComponent,
-    MatslctComponent
+    MatslctComponent,
+    AutocomplComponent,
+    ChckboxComponent
   ],
   imports: [
     BrowserModule,
@@ -47,7 +53,9 @@ import {MatSelectModule} from '@angular/material/select';
     MatFormFieldModule,
     MatInputModule,
     MatIconModule,
-    MatSelectModule
+    MatSelectModule,
+    MatAutocompleteModule,
+    MatCheckboxModule
     // MatFormFieldControl
     // NavpComponent
   ],

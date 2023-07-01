@@ -5,6 +5,8 @@ import { MgridComponent } from './mgrid/mgrid.component';
 import { TabComponent } from './tab/tab.component';
 import { MatsprComponent } from './matspr/matspr.component';
 import { MatslctComponent } from './matslct/matslct.component';
+import { AutocomplComponent } from './autocompl/autocompl.component';
+import { ChckboxComponent } from './chckbox/chckbox.component';
 
 const routes: Routes = [
   {
@@ -26,6 +28,14 @@ const routes: Routes = [
   {
     path: 'matslct',
     component: MatslctComponent
+  },
+  {
+    path: 'autocompl',
+    component: AutocomplComponent
+  },
+  {
+    path: 'chckbox',
+    component: ChckboxComponent
   }
 ];
 
